@@ -1,0 +1,9 @@
+class Event
+  attr_reader pubkey: String
+  attr_accessor id: String?
+  attr_accessor sig: String?
+
+  def initialize: (pubkey: String, ?id: String?, ?sig: String?) -> void
+  def verify_signature: -> bool
+  def valid_sig?: (String, String, String) -> bool
+end
