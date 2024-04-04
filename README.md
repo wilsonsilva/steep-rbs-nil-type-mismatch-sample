@@ -99,3 +99,7 @@ end
 - Steep version: `1.6.0`
 - RBS version: `3.4.4`
 - OS: `macOS Sonoma 14.4 (23E214)`
+
+## Fix
+
+The issue was acknowledged and fixed in version `1.7.dev3` https://github.com/soutaro/steep/pull/1085
